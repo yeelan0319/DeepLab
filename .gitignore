@@ -1,0 +1,6 @@
+.DS_Store
+*.pyc
+*.ckpt
+images
+snapshots
+output
