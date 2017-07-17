@@ -4,3 +4,7 @@
 images
 snapshots
 output
+
+# Ignore all dataset data
+dataset/*/xml
+dataset/*/png
