@@ -6,5 +6,6 @@ snapshots
 output
 
 # Ignore all dataset data
+dataset/*/image
 dataset/*/xml
-dataset/*/png
+dataset/*/label
