@@ -1,3 +1,5 @@
+from __future__ import print_function
+
 import argparse
 import glob
 import os
@@ -11,7 +13,7 @@ SVG_TEMPLATE = Template("""
     <rect x="0" y="0" width="$width" height="$height" style="fill:black" />
     $polygons
   </svg>""")
-POLYGON_TEMPLATE = Template("""<polygon points="$points" style="fill:red;stroke:white;stroke-width:1;" />""")
+POLYGON_TEMPLATE = Template("""<polygon points="$points" style="fill:red;" />""")
 TARGET_OBJECTS = ['wire', 'socketboard']
 
 def get_arguments():
